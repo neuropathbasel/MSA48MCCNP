@@ -1,0 +1,29 @@
+20250911 J. Hench IfP
+meqneuropatlp41 (x86_64 Ubuntu 20.04)
+Linux meqneuropatlp41 5.15.0-113-generic #123~20.04.1-Ubuntu SMP Wed Jun 12 17:33:13 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+
+
+History to set up the venv
+--------------------------
+cd /applications/crossNN_versions/crossNN-master_20250911/
+python3.9 -m venv crossNN_python-3-9_venv01
+source crossNN_python-3-9_venv01/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+
+
+too old code for present GPU and CUDA:
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_70.
+
+try to install a different version of pytorch
+# Example for a recent PyTorch version with CUDA 11.8 (asked Gemini)
+pip uninstall torch
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# pytorch code does not work
+# fixed code
+/applications/crossNN_versions/crossNN-master_20250911/training_IfP_01.py
+
+# 20260203 adding juypterlab
+pip install jupyterlab
+# to run jupyterlab: jupyter-lab
