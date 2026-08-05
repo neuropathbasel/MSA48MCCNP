@@ -110,7 +110,8 @@ loaded via a namespace (and not attached):
 
 [61] tibble_3.2.1                pillar_1.10.1               rappdirs_0.3.3              openssl_2.3.2              
 
-[65] GenomeInfoDbData_1.2.13     R6_2.6.1                    Biobase_2.66.0              lattice_0.22-6             
+[65] GenomeInfoDbData_1.2.13     R6_2.6.1                    Biobase_2.66.0              lattice_0.22-6 
+
 [69] readr_2.1.5                 png_0.1-8                   memoise_2.0.1               Rcpp_1.0.14 
 
 ## Convert Idats of the ND_IfP_20250912 reference set to bin format for use in NanoDiP.
@@ -122,6 +123,7 @@ Download reference idats from GEO and copy them to
 Copy index.csv from this repo to the path for this path as well.
 
 Copy ND_IfP_20250912.xlsx from this repo to
+
 /applications/reference_data/reference_annotations/
 
 
