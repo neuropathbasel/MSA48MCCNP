@@ -1,4 +1,4 @@
-# Create /use python 3.73 virtual environment with required packages
+# Create & use python 3.73 virtual environment with required packages
 
 ## Creation of python environment see:
 
