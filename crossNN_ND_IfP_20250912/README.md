@@ -4,3 +4,4 @@ This code works best with a CUDA GPU-equipped computer, e.g., NVIDIA RTX4090 or 
 ## Set up a Python 3.9 virtual environment
 Consult [setting_up_python_venv_20260203.txt](https://github.com/neuropathbasel/MSA48MCCNP/blob/main/crossNN_ND_IfP_20250912/setting_up_python_venv_20260203.txt).
 
+**Consider this code as example.** Example data are provided in this repository. Adapt to your operating system and available hardware acceleration.
