@@ -77,7 +77,12 @@ Adapt the path to your local setup and run all cells.
 
 In case you run into memory issues, please create a python file that should be run from a second xTerminal.
 
+
 For each entry in Working_MSAsampleetDF.csv the methylation classes  were determined using NanoDiP. Besides a pdf report for each “Pseudo”samples  _pie.csv is created.
+
+Summarize the result in one large Excel Sheet (MSA_MC01_DF_w_IntD_MC.xlsx) by running:
+
+08_Derive_MC_and_MFamily_from_pie_csv.ipynb.
 
 
 
