@@ -4,7 +4,7 @@
 
 
 
-## Creation of python environment see:
+## Creation of python environment see; start the NanoDiP MSA server:
 
 https://github.com/neuropathbasel/nanodip_dependencies
 
