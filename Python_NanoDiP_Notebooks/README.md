@@ -1,4 +1,7 @@
-# Create & use python 3.73 virtual environment with required packages
+# Overview on the data flow:
+
+
+
 
 ## Creation of python environment see:
 
@@ -12,6 +15,7 @@ cd /applications/nanodip
 
 jupyter notebook
 
+#Individual steps:
 
 Copy 
 
