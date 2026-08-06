@@ -9,7 +9,7 @@ cd /applications/crossNN_versions/crossNN-master_20250911/
 python3.9 -m venv crossNN_python-3-9_venv01
 source crossNN_python-3-9_venv01/bin/activate
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r pipfreeze_20260203.txt
 
 
 too old code for present GPU and CUDA:
